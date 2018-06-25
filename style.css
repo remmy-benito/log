@@ -1,0 +1,43 @@
+html, body {
+    height: 100%;
+}
+
+.backdrop-img {
+    filter: brightness(75%);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    overflow: hidden;
+}
+
+#splash-img{
+    background-image: url(images/1494479443029.jpg);
+}
+
+#article-2{
+    background-image: url(images/1494538523631.jpg);
+}
+
+#article-3{
+    background-image: url(images/1494702306386.jpg);
+}
+
+#article-4{
+    background-image: url(images/1494980379868.jpg);
+}
+
+#article-5{
+    background-image: url(images/1495329822433.jpg);
+}
+
+#article-6{
+    background-image: url(images/1506548806777.jpg);
+}
+
+#article-7{
+    background-image: url(images/1506913324418.jpg);
+}
+

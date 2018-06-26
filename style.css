@@ -2,8 +2,9 @@ html, body {
     height: 100%;
 }
 
+
 .backdrop-img {
-    filter: brightness(75%);
+    filter: brightness(55%);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -11,6 +12,27 @@ html, body {
     -moz-background-size: cover;
     -o-background-size: cover;
     overflow: hidden;
+    padding: 0;
+}
+
+.backdrop-img-active {
+    filter: brightness(100%);
+}
+
+div.article-info{
+    visibility: hidden;
+    opacity: 0;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    -webkit-transition: opacity 600ms, visibility 600ms;
+    transition: opacity 600ms, visibility 600ms;
+}
+
+div.article-info p, h3{
+    color:#F5F5F5;
+    font-weight: 600;
+    padding: 0;
 }
 
 #splash-img{

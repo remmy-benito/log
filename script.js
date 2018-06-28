@@ -1,6 +1,7 @@
 var backgroundEnter = document.getElementsByClassName("backdrop-img");
 
 
+// Adds mouseenter/mouseleave events to landing page articles
 for (let index = 0; index < backgroundEnter.length; index++) {
     const element = backgroundEnter[index];
 

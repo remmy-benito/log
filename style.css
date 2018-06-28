@@ -2,7 +2,6 @@ html, body {
     height: 100%;
 }
 
-
 .backdrop-img {
     filter: brightness(55%);
     background-repeat: no-repeat;
@@ -11,7 +10,6 @@ html, body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    overflow: hidden;
     padding: 0;
 }
 
@@ -35,6 +33,10 @@ div.article-info p, h3{
     padding: 0;
 }
 
+.date {
+    font-weight: 100;
+    font-size: 1em;
+}
 #splash-img{
     background-image: url(images/1494479443029.jpg);
 }
